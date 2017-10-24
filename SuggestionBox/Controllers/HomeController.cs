@@ -10,21 +10,9 @@ namespace SuggestionBox.Controllers
     {
         public ActionResult Index()
         {
+            //There is an action for each one of our pages. This page sends back.
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
